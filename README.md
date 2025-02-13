@@ -1,4 +1,4 @@
-# Doom-in-turtlebot
+# Doom in turtlebot
 Doom en TurtleBot, el nombre ya lo dice xd. Doom in TurtleBot in English xd
 
 Tutorial para correr Doom en un TurtleBot. Como un TurtleBot3 es esencialmente una Raspberry Pi con algunos componentes adicionales, no era muy complicado ni interesante. Lo que se hizo fue crear un módulo de ROS para controlar el TurtleBot de manera remota desde SSH, lo que permite correr Doom a través del puerto de escucha de los motores y el ROS del TurtleBot. En resumen, se corre DOOM en un TurtleBot3 de una forma más chevere (subiré un video más adelante en algún sitio xd).  

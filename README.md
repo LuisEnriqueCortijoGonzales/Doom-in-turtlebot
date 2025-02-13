@@ -24,7 +24,6 @@ ssh ubuntu@TURTLEBOT_IP
 ```
 ###Ejecuta los siguientes comandos:
 ```
-```bash
 sudo apt update && sudo apt install chocolate-doom
 cd ~/catkin_ws/src
 catkin_create_pkg red_follower rospy std_msgs sensor_msgs cv_bridge geometry_msgs

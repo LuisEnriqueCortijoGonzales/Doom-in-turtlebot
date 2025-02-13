@@ -15,13 +15,13 @@ Luego, clona el repositorio y ejecuta los siguientes comandos en la máquina rem
 sudo apt update && sudo apt install ros-noetic-rosbridge-server ros-noetic-joy
 pip install pynput
 ```
-En el TurtleBot
+###**En el TurtleBot**
 Conéctate al TurtleBot a través de SSH:
 ```bash
 ssh ubuntu@TURTLEBOT_IP
 ```
-###Ejecuta los siguientes comandos:
-```
+Ejecuta los siguientes comandos:
+```bash
 sudo apt update && sudo apt install chocolate-doom
 cd ~/catkin_ws/src
 catkin_create_pkg red_follower rospy std_msgs sensor_msgs cv_bridge geometry_msgs
@@ -36,7 +36,7 @@ source ~/.bashrc
 sudo usermod -a -G input $USER
 sudo chmod 777 /dev/input/event*
 ```
-Ejecución
+###**Ejecución**
 En la PC remota:
 
 ```bash
